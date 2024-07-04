@@ -3,7 +3,7 @@ export const db = {
     {
       id: 1,
       location: 468031,
-      startCity: 'Cagnes-sur-Mer',
+      startCity: 'Rohan',
       startCountry: 'France',
       endCity: 'Catania',
       endCountry: 'Italy',

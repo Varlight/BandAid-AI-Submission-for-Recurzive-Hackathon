@@ -45,18 +45,18 @@ const data = {
   new: [
     {
       sender: {
-        name: 'ABC',
-        address: 'before'
+        name: 'Azithromycin',
+        address: 'Before food'
       },
       receiver: {
-        name: 'Daisy Coleman',
-        address: '939 Orange, California (CA), 910614'
+        name: 'Adderall',
+        address: ' After food'
       }
     },
     {
       sender: {
-        name: 'Glenn Todd',
-        address: '1713 Garnet, California (CA), 939573'
+        name: 'Amitriptyline',
+        address: 'After food'
       },
       receiver: {
         name: 'Arthur West',
@@ -67,44 +67,44 @@ const data = {
   preparing: [
     {
       sender: {
-        name: 'Rose Cole',
-        address: '61 Unions, California (CA), 922523'
+        name: 'Ativan',
+        address: 'After food'
       },
       receiver: {
-        name: 'Polly Spencer',
-        address: '865 Delta, California (CA), 932830'
+        name: 'Lisinopril',
+        address: 'After food'
       }
     },
     {
       sender: {
-        name: 'Jerry Wood',
-        address: '37 Marjory, California (CA), 951958'
+        name: 'Naproxen',
+        address: 'After food'
       },
       receiver: {
-        name: 'Sam McCormick',
-        address: '926 Reynolds, California (CA), 910279'
+        name: 'Xanax',
+        address: 'After food'
       }
     }
   ],
   shipping: [
     {
       sender: {
-        name: 'Alex Walton',
-        address: '78 Judson, California (CA), 956084'
+        name: 'Omeprazole',
+        address: 'After food'
       },
       receiver: {
-        name: 'Eula Griffin',
-        address: '56 Bernard, California (CA), 965133'
+        name: 'Amoxicillin',
+        address: 'After food'
       }
     },
     {
       sender: {
-        name: 'Lula Barton',
-        address: '95 Gaylord, California (CA), 991955'
+        name: 'Metformin',
+        address: 'After food'
       },
       receiver: {
-        name: 'Craig Jacobs',
-        address: '73 Sandy, California (CA), 954566'
+        name: 'Aspirin',
+        address: 'After food'
       }
     }
   ]
@@ -147,7 +147,7 @@ const Orders = () => {
                       </TimelineSeparator>
                       <TimelineContent className='flex flex-col gap-0.5 pbs-0 pis-5 pbe-5'>
                         <Typography variant='body2' className='uppercase' color='success.main'>
-                          Sender
+                          
                         </Typography>
                         <Typography color='text.primary' className='font-medium'>
                           {item.sender.name}
@@ -158,13 +158,15 @@ const Orders = () => {
                     <TimelineItem>
                       <TimelineSeparator>
                         <TimelineDot variant='outlined' className='mlb-0'>
-                          <i className='tabler-map-pin text-xl text-primary' />
+                          {/* <i className='tabler-map-pin text-xl text-primary' /> */}
+                          <i className='tabler-circle-check text-xl text-success' />
+
                         </TimelineDot>
                       </TimelineSeparator>
                       <TimelineContent className='flex flex-col pbe-0 gap-0.5 pbs-0 pis-5'>
-                        <Typography variant='body2' className='uppercase' color='primary.main'>
+                        {/* <Typography variant='body2' className='uppercase' color='primary.main'>
                           Receiver
-                        </Typography>
+                        </Typography> */}
                         <Typography color='text.primary' className='font-medium'>
                           {item.receiver.name}
                         </Typography>

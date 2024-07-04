@@ -22,7 +22,7 @@ const ConnectionsTeams = props => {
       <Grid item xs={12} md={6}>
         <Card>
           <CardHeader
-            title='Connections'
+            title='Doctors'
             action={<OptionMenu options={['Share Connections', 'Suggest Edits', { divider: true }, 'Report Bug']} />}
           />
           <CardContent className='flex flex-col gap-4'>
@@ -54,7 +54,7 @@ const ConnectionsTeams = props => {
       <Grid item xs={12} md={6}>
         <Card>
           <CardHeader
-            title='Teams'
+            title='surgeon'
             action={<OptionMenu options={['Share Teams', 'Suggest Edits', { divider: true }, 'Report Bug']} />}
           />
           <CardContent className='flex flex-col gap-4'>

@@ -2,92 +2,92 @@ export const db = {
   users: {
     profile: {
       about: [
-        { property: 'Full Name', value: 'John Doe', icon: 'tabler-user' },
-        { property: 'Status', value: 'active', icon: 'tabler-check' },
-        { property: 'Role', value: 'Developer', icon: 'tabler-crown' },
-        { property: 'Country', value: 'USA', icon: 'tabler-flag' },
-        { property: 'Language', value: 'English', icon: 'tabler-language' }
+        { property: 'Full Name', value: 'John Doe', },
+        { property: 'Room NO', value: 'A 765' },
+        { property: 'Patient ID', value: 'G12345', },
+        { property: 'Patient Status', value: 'Active', },
+        { property: 'Patient Notes', value: 'Clear to auscultation bilaterally, no wheezes, rales, or rhonchi' }      
       ],
       contacts: [
-        { property: 'Contact', value: '(123) 456-7890', icon: 'tabler-phone-call' },
+        { property: 'Contact', value: '+91 987654321', icon: 'tabler-phone-call' },
         { property: 'Skype', value: 'john.doe', icon: 'tabler-messages' },
-        { property: 'Email', value: 'john.doe@example.com', icon: 'tabler-mail' }
+        { property: 'Email', value: 'john.doe@gmail.com', icon: 'tabler-mail' }
       ],
       teams: [
-        { property: 'Backend Developer', value: '(126 Members)' },
-        { property: 'React Developer', value: '(98 Members)' }
+        { property: 'Albert ', value: '(+91 8989898989)' },
+        { property: 'Monisha', value: '(+91 8736593746)' }
       ],
       overview: [
-        { property: 'Task Compiled', value: '13.5k', icon: 'tabler-check' },
-        { property: 'Connections', value: '897', icon: 'tabler-users' },
-        { property: 'Projects Compiled', value: '146', icon: 'tabler-layout-grid' }
+        { property: 'Medical Records', value: 'Good' },
+        { property: 'Prescription Details        ', value: 'Updated' },
+        { property: 'Consent Forms        ', value: 'Reviewed'}
       ],
       connections: [
         {
           isFriend: true,
-          connections: '45',
+          connections: '10 years',
           name: 'Cecilia Payne',
           avatar: '/images/avatars/2.png'
         },
         {
           isFriend: false,
-          connections: '1.32k',
+          connections: '11 years',
           name: 'Curtis Fletcher',
           avatar: '/images/avatars/3.png'
         },
         {
           isFriend: false,
-          connections: '125',
+          connections: '8 years',
           name: 'Alice Stone',
           avatar: '/images/avatars/4.png'
         },
         {
           isFriend: true,
-          connections: '456',
+          connections: '16 years',
           name: 'Darrell Barnes',
           avatar: '/images/avatars/5.png'
         },
         {
           isFriend: true,
-          connections: '1.2k',
+          connections: '9 years',
           name: 'Eugenia Moore',
           avatar: '/images/avatars/8.png'
         }
       ],
       teamsTech: [
         {
-          members: 72,
+          // members: 72,
           ChipColor: 'error',
-          chipText: 'Developer',
-          title: 'React Developers',
+          chipText: 'MBBS,MS',
+          title: 'General Surgeon',
           avatar: '/images/logos/react-bg.png'
         },
         {
-          members: 122,
-          chipText: 'Support',
+          // members: 122,
+          chipText: 'MBBS,CT',
           ChipColor: 'primary',
-          title: 'Support Team',
+          title: 'Cardiothoracic Surgeon          ',
           avatar: '/images/icons/support-bg.png'
         },
         {
-          members: 7,
+          // members: 7,
           ChipColor: 'info',
-          chipText: 'Designer',
-          title: 'UI Designer',
+          chipText: 'MBBS,MS,MCh',
+          title: 'Neurosurgeon',
           avatar: '/images/logos/figma-bg.png'
         },
         {
-          members: 289,
+          // members: 289,
           ChipColor: 'error',
-          chipText: 'Developer',
-          title: 'Vue.js Developers',
+          chipText: 'MBBS,MS in ortho',
+          title: 'Orthopedic Surgeon',
           avatar: '/images/logos/vue-bg.png'
         },
         {
-          members: 24,
-          chipText: 'Marketing',
+          // members: 24,
+          chipText: 'MBBS,MS',
           ChipColor: 'secondary',
-          title: 'Digital Marketing',
+          title: 'Plastic Surgeon',
           avatar: '/images/logos/twitter-bg.png'
         }
       ],
@@ -670,8 +670,8 @@ export const db = {
   },
   profileHeader: {
     fullName: 'John Doe',
-    location: 'Vatican City',
-    joiningDate: 'April 2021',
+    location: 'chennai',
+    joiningDate: 'July 2024',
     designation: 'UX Designer',
     profileImg: '/images/avatars/1.png',
     designationIcon: 'tabler-palette',

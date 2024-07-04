@@ -44,14 +44,14 @@ const ActivityTimeline = () => {
             </TimelineSeparator>
             <TimelineContent>
               <div className='flex items-center justify-between flex-wrap gap-x-4 pbe-[7px]'>
-                <Typography className='text-textPrimary font-medium'>12 Invoices have been paid</Typography>
+                <Typography className='text-textPrimary font-medium'>Normal ward</Typography>
                 <Typography variant='caption'>12 min ago</Typography>
               </div>
-              <Typography className='mbe-2'>Invoices have been paid to the company.</Typography>
+              <Typography className='mbe-2'>Shifted to normal ward</Typography>
               <div className='flex'>
                 <div className='flex gap-2.5 items-center pli-2.5 bg-actionHover plb-[0.3125rem] rounded'>
-                  <img alt='invoice.pdf' src='/images/icons/pdf-document.png' className='bs-5' />
-                  <Typography className='font-medium'>invoice.pdf</Typography>
+                  {/* <img alt='invoice.pdf' src='/images/icons/pdf-document.png' className='bs-5' /> */}
+                  {/* <Typography className='font-medium'>invoice.pdf</Typography> */}
                 </div>
               </div>
             </TimelineContent>
@@ -63,17 +63,17 @@ const ActivityTimeline = () => {
             </TimelineSeparator>
             <TimelineContent>
               <div className='flex items-center justify-between flex-wrap gap-x-4 pbe-[7px]'>
-                <Typography className='text-textPrimary font-medium'>Client Meeting</Typography>
+                <Typography className='text-textPrimary font-medium'>ICU</Typography>
                 <Typography variant='caption'>45 min ago</Typography>
               </div>
-              <Typography className='mbe-2'>Project meeting with john @10:15am</Typography>
+              <Typography className='mbe-2'>Intensive care unit</Typography>
               <div className='flex items-center gap-2.5'>
-                <CustomAvatar src='/images/avatars/1.png' size={32} />
+                {/* <CustomAvatar src='/images/avatars/1.png' size={32} /> */}
                 <div>
-                  <Typography className='font-medium' variant='body2'>
+                  {/* <Typography className='font-medium' variant='body2'>
                     Lester McCarthy (Client)
-                  </Typography>
-                  <Typography variant='body2'>CEO of Pixinvent</Typography>
+                  </Typography> */}
+                  {/* <Typography variant='body2'>CEO of Pixinvent</Typography> */}
                 </div>
               </div>
             </TimelineContent>
@@ -85,15 +85,15 @@ const ActivityTimeline = () => {
             </TimelineSeparator>
             <TimelineContent>
               <div className='flex items-center justify-between flex-wrap gap-x-4 pbe-[7px]'>
-                <Typography className='text-textPrimary font-medium'>Create a new project for client</Typography>
+                <Typography className='text-textPrimary font-medium'>Opertion Theatre</Typography>
                 <Typography variant='caption'>2 Day Ago</Typography>
               </div>
-              <Typography className='mbe-2'>6 team members in a project</Typography>
-              <AvatarGroup total={6}>
+              <Typography className='mbe-2'>Surgery in leg</Typography>
+              {/* <AvatarGroup total={6}>
                 <Avatar alt='Remy Sharp' src='/images/avatars/1.png' />
                 <Avatar alt='Travis Howard' src='/images/avatars/2.png' />
                 <Avatar alt='Cindy Baker' src='/images/avatars/3.png' />
-              </AvatarGroup>
+              </AvatarGroup> */}
             </TimelineContent>
           </TimelineItem>
         </Timeline>
