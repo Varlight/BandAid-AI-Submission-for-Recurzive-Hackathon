@@ -121,7 +121,7 @@ const LogisticsOrdersByCountries = () => {
   return (
     <Card>
       <CardHeader
-        title='Orders by Countries'
+        title='Stock Orders'
         subheader='62 deliveries in progress'
         action={<OptionMenu options={['Show all orders', 'Share', 'Refresh']} />}
         className='pbe-4'

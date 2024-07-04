@@ -100,7 +100,7 @@ const LogisticsOverviewTable = ({ vehicleData }) => {
         )
       },
       columnHelper.accessor('location', {
-        header: 'Location',
+        header: 'Room Number',
         cell: ({ row }) => (
           <div className='flex items-center gap-4'>
             <CustomAvatar skin='light' color='secondary'>
@@ -118,15 +118,15 @@ const LogisticsOverviewTable = ({ vehicleData }) => {
         )
       }),
       columnHelper.accessor('startCity', {
-        header: 'Starting Route',
+        header: 'Patient Name',
         cell: ({ row }) => <Typography>{`${row.original.startCity}, ${row.original.startCountry}`}</Typography>
       }),
       columnHelper.accessor('endCity', {
-        header: 'Ending Route',
+        header: 'Doctor',
         cell: ({ row }) => <Typography>{`${row.original.endCity}, ${row.original.endCountry}`}</Typography>
       }),
       columnHelper.accessor('warnings', {
-        header: 'Warnings',
+        header: 'Type',
         cell: ({ row }) => (
           <Chip
             variant='tonal'
@@ -182,7 +182,7 @@ const LogisticsOverviewTable = ({ vehicleData }) => {
 
   return (
     <Card>
-      <CardHeader title='Course you are taking' action={<OptionMenu options={['Refresh', 'Update', 'Share']} />} />
+      <CardHeader title='Recently Admitted' action={<OptionMenu options={['Refresh', 'Update', 'Share']} />} />
       <div className='overflow-x-auto'>
         <table className={tableStyles.table}>
           <thead>

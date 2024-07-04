@@ -21,7 +21,7 @@ const LogisticsDeliveryExceptions = () => {
   const theme = useTheme()
 
   const options = {
-    labels: ['Incorrect address', 'Weather conditions', 'Federal Holidays', 'Damage during transit'],
+    labels: ['Vials', 'Anasthetics', 'OTC Drugs', 'Tablets'],
     stroke: {
       width: 0
     },
@@ -94,7 +94,7 @@ const LogisticsDeliveryExceptions = () => {
 
   return (
     <Card className='bs-full'>
-      <CardHeader title='Delivery exceptions' action={<OptionMenu options={['Select All', 'Refresh', 'Share']} />} />
+      <CardHeader title='Pharmacy Stock % ' action={<OptionMenu options={['Select All', 'Refresh', 'Share']} />} />
       <CardContent>
         <AppReactApexCharts
           type='donut'
