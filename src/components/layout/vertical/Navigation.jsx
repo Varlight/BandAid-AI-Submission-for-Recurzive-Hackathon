@@ -11,13 +11,12 @@ import { useParams } from 'next/navigation'
 import { styled, useColorScheme, useTheme } from '@mui/material/styles'
 
 // Component Imports
-import VerticalNav, { NavHeader, NavCollapseIcons } from '@menu/vertical-menu'
+import VerticalNav, { NavCollapseIcons, NavHeader } from '@menu/vertical-menu'
 import VerticalMenu from './VerticalMenu'
-import Logo from '@components/layout/shared/Logo'
 
 // Hook Imports
-import useVerticalNav from '@menu/hooks/useVerticalNav'
 import { useSettings } from '@core/hooks/useSettings'
+import useVerticalNav from '@menu/hooks/useVerticalNav'
 
 // Util Imports
 import { getLocalizedUrl } from '@/utils/i18n'
@@ -109,7 +108,7 @@ const Navigation = props => {
       {/* Nav Header including Logo & nav toggle icons  */}
       <NavHeader>
         <Link href={getLocalizedUrl('/', locale)}>
-          <Logo />
+          <h1>BandAid AI</h1>
         </Link>
         {!(isCollapsed && !isHovered) && (
           <NavCollapseIcons

@@ -16,8 +16,8 @@ import { verticalNavClasses } from '../../utils/menuClasses'
 // Styled Component Imports
 import StyledBackdrop from '../../styles/StyledBackdrop'
 import StyledVerticalNav from '../../styles/vertical/StyledVerticalNav'
-import StyledVerticalNavContainer from '../../styles/vertical/StyledVerticalNavContainer'
 import StyledVerticalNavBgColorContainer from '../../styles/vertical/StyledVerticalNavBgColorContainer'
+import StyledVerticalNavContainer from '../../styles/vertical/StyledVerticalNavContainer'
 
 // Style Imports
 import styles from '../../styles/vertical/verticalNavBgImage.module.css'
