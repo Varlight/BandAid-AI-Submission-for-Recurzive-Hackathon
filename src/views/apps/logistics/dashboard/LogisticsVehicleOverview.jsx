@@ -20,7 +20,7 @@ import styles from './styles.module.css'
 const data = [
   {
     icon: 'tabler-car',
-    heading: 'On the way',
+    heading: 'Next Shift',
     time: '2hr 10min',
     progressColor: 'action',
     progressColorVariant: 'hover',
@@ -29,7 +29,7 @@ const data = [
   },
   {
     icon: 'tabler-circle-arrow-down',
-    heading: 'Unloading',
+    heading: 'Doctors',
     time: '3hr 15min',
     progressColor: 'primary',
     progressColorVariant: 'main',
@@ -38,7 +38,7 @@ const data = [
   },
   {
     icon: 'tabler-circle-arrow-up',
-    heading: 'Loading',
+    heading: 'Nurse',
     time: '1hr 24min',
     progressColor: 'info',
     progressColorVariant: 'main',
@@ -47,7 +47,7 @@ const data = [
   },
   {
     icon: 'tabler-clock',
-    heading: 'Waiting',
+    heading: 'Cleaning',
     time: '5hr 19min',
     progressColor: 'SnackbarContent',
     progressColorVariant: 'bg',
@@ -59,7 +59,7 @@ const data = [
 const LogisticsVehicleOverview = () => {
   return (
     <Card>
-      <CardHeader title='Vehicle Overview' action={<OptionMenu options={['Refresh', 'Update', 'Share']} />} />
+      <CardHeader title='Staff Overview' action={<OptionMenu options={['Refresh', 'Update', 'Share']} />} />
       <CardContent>
         <div className='flex flex-col gap-6'>
           <div className='flex is-full'>

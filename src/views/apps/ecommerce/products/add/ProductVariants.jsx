@@ -28,23 +28,24 @@ const ProductVariants = () => {
 
   return (
     <Card>
-      <CardHeader title='Product Variants' />
+      <CardHeader title='Patient Type' />
       <CardContent>
         <Grid container spacing={6}>
           {Array.from(Array(count).keys()).map((item, index) => (
             <Grid key={index} item xs={12} className='repeater-item'>
               <Grid container spacing={6}>
                 <Grid item xs={12} md={4}>
-                  <CustomTextField select fullWidth label='Options' defaultValue='Size'>
-                    <MenuItem value='Size'>Size</MenuItem>
-                    <MenuItem value='Color'>Color</MenuItem>
-                    <MenuItem value='Weight'>Weight</MenuItem>
-                    <MenuItem value='Smell'>Smell</MenuItem>
+                  <CustomTextField select fullWidth label='Options' defaultValue='ICU'>
+                    <MenuItem value='Size'>ICU</MenuItem>
+                    <MenuItem value='Color'>Pregnancy</MenuItem>
+                    <MenuItem value='Weight'>High Intensive Care Unit</MenuItem>
+                    <MenuItem value='Smell'>Trauma Care</MenuItem>
+                    <MenuItem value='Smell'>ER</MenuItem>
                   </CustomTextField>
                 </Grid>
                 <Grid item xs={12} md={8} alignSelf='end'>
                   <div className='flex items-center gap-6'>
-                    <CustomTextField fullWidth placeholder='Enter Variant Value' />
+                    <CustomTextField fullWidth placeholder='Enter Room/Bed No.' />
                     <CustomIconButton onClick={deleteForm} className='min-is-fit'>
                       <i className='tabler-x' />
                     </CustomIconButton>

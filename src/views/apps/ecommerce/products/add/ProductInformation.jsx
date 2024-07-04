@@ -133,17 +133,17 @@ const ProductInformation = () => {
 
   return (
     <Card>
-      <CardHeader title='Product Information' />
+      <CardHeader title='Patient Information' />
       <CardContent>
         <Grid container spacing={6} className='mbe-6'>
           <Grid item xs={12}>
-            <CustomTextField fullWidth label='Product Name' placeholder='iPhone 14' />
+            <CustomTextField fullWidth label='Patient First Name' placeholder='Siddha' />
           </Grid>
           <Grid item xs={12} sm={6}>
-            <CustomTextField fullWidth label='SKU' placeholder='FXSK123U' />
+            <CustomTextField fullWidth label='Patient Last Name' placeholder='Rathore' />
           </Grid>
           <Grid item xs={12} sm={6}>
-            <CustomTextField fullWidth label='Barcode' placeholder='0123-4567' />
+            <CustomTextField fullWidth label='Patient ID' placeholder='0123-4567' />
           </Grid>
         </Grid>
         <Typography className='mbe-1'>Description (Optional)</Typography>

@@ -71,8 +71,8 @@ const Transactions = () => {
   return (
     <Card className='bs-full flex flex-col'>
       <CardHeader
-        title='Transactions'
-        subheader='Total 58 transaction done in month'
+        title='Bill Payments'
+        subheader='Total 58 transaction done'
         action={<OptionMenu options={['Refresh', 'Show all entries', 'Make payment']} />}
       />
       <CardContent className='flex grow flex-col justify-between max-sm:gap-5'>

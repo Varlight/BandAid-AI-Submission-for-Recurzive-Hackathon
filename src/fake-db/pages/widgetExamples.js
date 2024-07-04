@@ -27,29 +27,29 @@ export const db = {
   ],
   statsHorizontalWithBorder: [
     {
-      title: 'On route vehicles',
-      stats: 42,
+      title: 'Total No. of Patients',
+      stats: 56,
       trendNumber: 18.2,
       avatarIcon: 'tabler-truck',
       color: 'primary'
     },
     {
-      title: 'Vehicles with errors',
-      stats: 8,
+      title: 'ICU Patients',
+      stats: 10,
       trendNumber: -8.7,
       avatarIcon: 'tabler-alert-triangle',
       color: 'warning'
     },
     {
-      title: 'Deviated from route',
-      stats: 27,
+      title: 'Emergency Ward',
+      stats: 15,
       trendNumber: 4.3,
       avatarIcon: 'tabler-git-fork',
       color: 'error'
     },
     {
-      title: 'Late vehicles',
-      stats: 13,
+      title: 'Normal Ward',
+      stats: 21,
       trendNumber: 2.5,
       avatarIcon: 'tabler-clock',
       color: 'info'

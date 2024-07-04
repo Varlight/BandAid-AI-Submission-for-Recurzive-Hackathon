@@ -95,7 +95,7 @@ const ProductImage = () => {
     <Dropzone>
       <Card>
         <CardHeader
-          title='Product Image'
+          title='Patient Image'
           action={
             <Typography
               component={Link}

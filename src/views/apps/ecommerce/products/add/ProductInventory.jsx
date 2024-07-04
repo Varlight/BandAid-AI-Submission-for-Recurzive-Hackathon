@@ -47,13 +47,13 @@ const ProductInventory = () => {
 
   return (
     <Card>
-      <CardHeader title='Inventory' />
+      <CardHeader title='' />
       <CardContent>
         <TabContext value={activeTab}>
           <div className='flex max-md:flex-col gap-6'>
             <div className='md:is-4/12'>
               <CustomTabList orientation='vertical' onChange={handleChange} pill='true'>
-                <Tab
+                {/* <Tab
                   value='restock'
                   label='Restock'
                   icon={<i className='tabler-box' />}
@@ -87,24 +87,24 @@ const ProductInventory = () => {
                   icon={<i className='tabler-lock' />}
                   iconPosition='start'
                   className='flex-row justify-start min-is-full'
-                />
+                /> */}
               </CustomTabList>
             </div>
             <Divider orientation={isBelowMdScreen ? 'horizontal' : 'vertical'} flexItem />
             <div className='md:is-8/12'>
-              <TabPanel value='restock' className='flex flex-col gap-4'>
-                <Typography className='font-medium'>Options</Typography>
+              {/* <TabPanel value='restock' className='flex flex-col gap-4'> */}
+                {/* <Typography className='font-medium'>Options</Typography> */}
                 <div className='flex items-end gap-4'>
-                  <CustomTextField label='Add to stock' placeholder='Quantity' size='small' className='flex-auto' />
-                  <Button variant='contained'>Confirm</Button>
+                  {/* <CustomTextField label='Add to stock' placeholder='Quantity' size='small' className='flex-auto' />
+                  <Button variant='contained'>Confirm</Button> */}
                 </div>
-                <div className='flex flex-col gap-2'>
+                {/* <div className='flex flex-col gap-2'>
                   <Typography color='text.primary'>Product in stock now: 54</Typography>
                   <Typography color='text.primary'>Product in transit: 390</Typography>
                   <Typography color='text.primary'>Last time restocked: 24th June, 2022</Typography>
                   <Typography color='text.primary'>Total stock over lifetime: 2,430</Typography>
-                </div>
-              </TabPanel>
+                </div> */}
+              {/* </TabPanel> */}
               <TabPanel value='shipping'>
                 <div className='flex flex-col gap-4'>
                   <Typography className='font-medium'>Shipping Type</Typography>

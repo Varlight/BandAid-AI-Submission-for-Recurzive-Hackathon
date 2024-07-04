@@ -29,7 +29,7 @@ const data = [
   },
   {
     icon: 'tabler-circle-arrow-down',
-    heading: 'Unloading',
+    heading: 'Doctors',
     time: '3hr 15min',
     progressColor: 'primary',
     progressColorVariant: 'main',

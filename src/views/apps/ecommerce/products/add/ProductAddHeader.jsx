@@ -7,9 +7,9 @@ const ProductAddHeader = () => {
     <div className='flex flex-wrap items-center justify-between gap-6'>
       <div>
         <Typography variant='h4' className='mbe-1'>
-          Add a new product
+          Add a new patient
         </Typography>
-        <Typography>Orders placed across your store</Typography>
+        {/* <Typography>Orders placed across your store</Typography> */}
       </div>
       <div className='flex flex-wrap gap-4'>
         <Button variant='tonal' color='secondary'>
