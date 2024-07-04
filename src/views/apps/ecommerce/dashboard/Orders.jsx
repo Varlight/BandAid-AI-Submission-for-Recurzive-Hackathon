@@ -45,8 +45,8 @@ const data = {
   new: [
     {
       sender: {
-        name: 'Micheal Hughes',
-        address: '101 Boulder, California (CA), 933130'
+        name: 'ABC',
+        address: 'before'
       },
       receiver: {
         name: 'Daisy Coleman',
@@ -121,16 +121,16 @@ const Orders = () => {
   return (
     <Card>
       <CardHeader
-        title='Orders by Countries'
-        subheader='62 deliveries in progress'
-        action={<OptionMenu options={['Show all orders', 'Share', 'Refresh']} />}
+        title='Prescription'
+        subheader='Drugs to be taken'
+        action={<OptionMenu options={['Show all medicines', 'Update', 'Refresh']} />}
         className='pbe-4'
       />
       <TabContext value={value}>
         <TabList variant='fullWidth' onChange={handleChange} aria-label='full width tabs example'>
-          <Tab value='new' label='New' />
-          <Tab value='preparing' label='Preparing' />
-          <Tab value='shipping' label='Shipping' />
+          <Tab value='new' label='Morning' />
+          <Tab value='preparing' label='Afternoon' />
+          <Tab value='shipping' label='Night' />
         </TabList>
         <TabPanel value={value} className='pbs-0'>
           <CardContent>

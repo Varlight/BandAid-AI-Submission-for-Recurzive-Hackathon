@@ -64,7 +64,7 @@ const PopularProducts = () => {
                 <Typography className='font-medium' color='text.primary'>
                   {item.title}
                 </Typography>
-                <Typography variant='body2'>{`Item: #FXZ-${item.subtitle}`}</Typography>
+                <Typography variant='body2'>{`${item.subtitle}`}</Typography>
               </div>
               <Typography>{item.amount}</Typography>
             </div>

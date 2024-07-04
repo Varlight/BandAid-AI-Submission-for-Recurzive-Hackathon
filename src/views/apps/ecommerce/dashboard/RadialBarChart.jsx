@@ -86,11 +86,11 @@ const RadialBarChart = () => {
 
   return (
     <Card>
-      <CardHeader title='82.5k' subheader='Expenses' className='pbe-0' />
+      <CardHeader title='Water Balance' subheader='' className='pbe-0' />
       <CardContent className='flex flex-col gap-3 items-center'>
-        <AppReactApexCharts type='radialBar' height={148} width='100%' options={options} series={[78]} />
+        <AppReactApexCharts type='radialBar' height={148} width='100%' options={options} series={[82]} />
         <Typography variant='body2' color='text.disabled' className='sm:mbs-2 lg:mbs-0'>
-          $21k Expenses more than last month
+          2.88% Incresed
         </Typography>
       </CardContent>
     </Card>

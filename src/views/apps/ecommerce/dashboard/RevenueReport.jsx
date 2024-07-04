@@ -24,8 +24,8 @@ const AppReactApexCharts = dynamic(() => import('@/libs/styles/AppReactApexChart
 const yearOptions = [new Date().getFullYear() - 1, new Date().getFullYear() - 2, new Date().getFullYear() - 3]
 
 const barSeries = [
-  { name: 'Earning', data: [252, 203, 152, 173, 235, 299, 235, 252, 106] },
-  { name: 'Expense', data: [-128, -157, -190, -163, -89, -51, -89, -136, -190] }
+  { name: 'Sleep', data: [252, 203, 152, 173, 235, 299, 235, 252, 106] },
+  { name: 'REM Sleep', data: [-128, -157, -190, -163, -89, -51, -89, -136, -190] }
 ]
 
 const lineSeries = [
@@ -114,7 +114,7 @@ const RevenueReport = () => {
       axisTicks: { show: false },
       crosshairs: { opacity: 0 },
       axisBorder: { show: false },
-      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+      categories: ['10', '01', '04', '07', '10', '1:00', '4:00', '7:00', '9:00'],
       labels: {
         style: {
           colors: disabledText,
@@ -236,7 +236,7 @@ const RevenueReport = () => {
     <Card>
       <Grid container>
         <Grid item xs={12} sm={8} className='border-r'>
-          <CardHeader title='Revenue Report' />
+          <CardHeader title='Sleep Report' />
           <CardContent>
             <AppReactApexCharts type='bar' height={320} width='100%' series={barSeries} options={barOptions} />
           </CardContent>
@@ -266,13 +266,13 @@ const RevenueReport = () => {
               ))}
             </Menu>
             <div className='flex flex-col items-center'>
-              <Typography variant='h3'>$25,825</Typography>
+              <Typography variant='h3'>Sleep Efficiency</Typography>
               <Typography>
-                <span className='font-medium text-textPrimary'>Budget: </span>56,800
+                {/* <span className='font-medium text-textPrimary'>Budget: </span>56, */}
               </Typography>
             </div>
             <AppReactApexCharts type='line' height={80} width='100%' series={lineSeries} options={lineOptions} />
-            <Button variant='contained'>Increase Budget</Button>
+            <Button variant='contained'>View</Button>
           </CardContent>
         </Grid>
       </Grid>

@@ -10,27 +10,27 @@ import CustomAvatar from '@core/components/mui/Avatar'
 
 const data = [
   {
-    stats: '230k',
-    title: 'Sales',
+    stats: '74',
+    title: 'Heart beat',
     color: 'primary',
     icon: 'tabler-chart-pie-2'
   },
   {
     color: 'info',
-    stats: '8.549k',
-    title: 'Customers',
+    stats: '120/80 mmHg',
+    title: 'BP',
     icon: 'tabler-users'
   },
   {
     color: 'error',
-    stats: '1.423k',
-    title: 'Products',
+    stats: '96',
+    title: 'Oxygen',
     icon: 'tabler-shopping-cart'
   },
   {
-    stats: '$9745',
+    stats: '99.5',
     color: 'success',
-    title: 'Revenue',
+    title: 'Body Temperature',
     icon: 'tabler-currency-dollar'
   }
 ]
@@ -39,10 +39,10 @@ const StatisticsCard = () => {
   return (
     <Card>
       <CardHeader
-        title='Statistics'
+        title='Basic Vitals'
         action={
           <Typography variant='subtitle2' color='text.disabled'>
-            Updated 1 month ago
+            Updated few seconds ago
           </Typography>
         }
       />

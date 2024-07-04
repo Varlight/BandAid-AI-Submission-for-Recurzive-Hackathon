@@ -20,27 +20,27 @@ const series = [{ data: [32, 98, 61, 41, 88, 47, 71] }]
 
 const data = [
   {
-    amount: '$1,619',
-    trendNumber: 18.6,
-    title: 'Net Profit',
+    amount: '5.11m',
+    trendNumber: 91,
+    title: 'Red blood cells',
     avatarColor: 'primary',
-    subtitle: '12.4k Sales',
+    subtitle: '4.35m - 5.65m',
     avatarIcon: 'tabler-chart-pie-2'
   },
   {
-    amount: '$3,571',
-    trendNumber: 39.6,
-    title: 'Total Income',
+    amount: '8,899',
+    trendNumber: 89,
+    title: 'White blood cells',
     avatarColor: 'success',
-    subtitle: 'Sales, Affiliation',
+    subtitle: '4500-11,000',
     avatarIcon: 'tabler-currency-dollar'
   },
   {
-    amount: '$430',
-    trendNumber: 52.8,
-    title: 'Total Expenses',
+    amount: '289,000',
+    trendNumber: '67',
+    title: 'Platelets',
     avatarColor: 'secondary',
-    subtitle: 'ADVT, Marketing',
+    subtitle: '150,000-450,000',
     avatarIcon: 'tabler-credit-card'
   }
 ]
@@ -108,8 +108,8 @@ const EarningReports = () => {
   return (
     <Card>
       <CardHeader
-        title='Earning Reports'
-        subheader='Weekly Earnings Overview'
+        title='Blood Reports'
+        subheader='Weekly reports Overview'
         action={<OptionMenu options={['Refresh', 'Update', 'Share']} />}
       />
       <CardContent className='flex flex-col gap-5'>

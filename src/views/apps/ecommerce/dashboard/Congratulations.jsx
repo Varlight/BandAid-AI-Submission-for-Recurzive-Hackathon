@@ -12,16 +12,16 @@ const CongratulationsJohn = () => {
         <Grid item xs={8}>
           <CardContent>
             <Typography variant='h5' className='mbe-0.5'>
-              Congratulations John 🎉
+               Michale
             </Typography>
             <Typography variant='subtitle1' className='mbe-2'>
-              Best seller of the month
+              All the best for your recovery!!!
             </Typography>
             <Typography variant='h4' color='primary.main' className='mbe-1'>
-              $48.9k
+              
             </Typography>
             <Button variant='contained' color='primary'>
-              View Sales
+              View profile
             </Button>
           </CardContent>
         </Grid>
