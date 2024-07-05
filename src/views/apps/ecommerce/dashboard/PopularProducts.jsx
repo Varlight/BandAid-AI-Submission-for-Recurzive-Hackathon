@@ -1,7 +1,7 @@
 // MUI Imports
 import Card from '@mui/material/Card'
-import CardHeader from '@mui/material/CardHeader'
 import CardContent from '@mui/material/CardContent'
+import CardHeader from '@mui/material/CardHeader'
 import Typography from '@mui/material/Typography'
 
 // Components Imports
@@ -58,7 +58,6 @@ const PopularProducts = () => {
       <CardContent className='flex flex-col gap-[1.638rem]'>
         {data.map((item, index) => (
           <div key={index} className='flex items-center gap-4'>
-            <img src={item.imgSrc} alt={item.title} width={46} />
             <div className='flex flex-wrap justify-between items-center gap-x-4 gap-y-1 is-full'>
               <div className='flex flex-col'>
                 <Typography className='font-medium' color='text.primary'>
