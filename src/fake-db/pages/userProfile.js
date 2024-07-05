@@ -672,7 +672,7 @@ export const db = {
     fullName: 'John Doe',
     location: 'chennai',
     joiningDate: 'July 2024',
-    designation: 'UX Designer',
+    designation: 'Patient',
     profileImg: '/images/avatars/1.png',
     designationIcon: 'tabler-palette',
     coverImg: '/images/pages/profile-banner.png'
