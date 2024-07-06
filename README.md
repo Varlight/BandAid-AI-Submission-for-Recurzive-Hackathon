@@ -2,6 +2,12 @@
 
 Bandaid AI is an artificial intelligence assistant designed to revolutionize patient care in hospitals. By leveraging advanced AI technologies, Bandaid AI streamlines workflows, reduces nurse burnout, minimizes medical errors, and enhances patient outcomes.
 
+## **Hackathon Submission**
+
+This project was made and submitted for the Recurzive Hackathon ([recurzive.xyz](https://recurzive.xyz)).
+
+Check out our project on Devfolio: [Bandaid AI](https://devfolio.co/projects/bandaid-ai-f4d6).
+
 ## **Project Status**
 
 **This project is a work in progress and yet to be completed.**
